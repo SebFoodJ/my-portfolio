@@ -10,7 +10,11 @@ export default function About() {
                         <br className="hidden lg:inline-block text-lavender" />Je suis étudiant en développement web.
                     </h1>
                     <p className="mb-8 leading-relaxed text-frenchgray drop-shadow-lg font-medium">
-                        lnlk!sdnds!lknljnlkjgdlfkgkldnglknlkdfgnfdlgndln
+                        A la recherche d'une alternance !<br/>
+                        Quand ? A partir d'Octobre 2023<br/>
+                        Durée : 12 mois<br/>
+                        Rythme: 4 jours en entreprise / 1 jour en formation<br/>
+                        Diplôme : Concepteur Développeur d'Applications, RNCP niveau 6
                         <a href="https://adatechschool.fr/" className="text-strongblue font-bold hidden lg:inline-block title-font">Ada Tech School</a> <span role='img' aria-label=''>🤝</span>
                     </p>
                     <div className="flex justify-center">

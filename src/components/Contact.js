@@ -61,7 +61,7 @@ export default function Contact() {
                         style={{ filter: "opacity(0.7)" }}
                         src="https://www.google.com/maps/embed/v1/place?q=4+Rue+du+Puits+d'Argent,+Nantes,+France&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
                     />
-                    <div className="bg-darkgray relative flex flex-wrap py-6 rounded shadow-md">
+                    <div className="bg-indigo relative flex flex-wrap py-6 rounded shadow-md">
                         <div className="lg:w-3/5 px-6">
                             <h2 className="title-font font-semibold text-lavender tracking-widest text-xs">
                                 ADRESSE

@@ -16,18 +16,10 @@ export const projects = [
     {
         title: "Antikea",
         subtitle: "Plateforme de vente de meubles en PHP",
-        description: "Création d'une plateforme de vente de meubles d'occasion en équipe de 8 (4 en front et 4 en back) sur une période de 2 semaines.",
+        description: "Création d'une plateforme de vente de meubles d'occasion en équipe de 8 sur une période de 2 semaines.",
         image: "./antikea.gif",
         link: "#"
-    },
-    {
-        title: "The Wave",
-        subtitle: "Application Mobile en Kotlin et Go",
-        description: "Création from scratch d'une application mobile répertoriant des Spots de Surf en équipe de 3 sur une période de 4 semaines.",
-        image: "./project-4.gif",
-        link: "#"
-    },
-
+    }
 ];
 
 
