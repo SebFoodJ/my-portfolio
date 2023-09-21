@@ -8,7 +8,7 @@ export default function Navbar() {
             <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
                 <p className='title-font font-medium text-lavender mb-4 md:mb-0'>
                     <p className="ml-3 text-xl">
-                        Sébastien Fougère
+                        SEBASTIEN FOUGERE
                     </p>
                 </p>
                 <nav className="md:ml-auto flex font-medium flex-wrap items-center text-lavender justify-center">

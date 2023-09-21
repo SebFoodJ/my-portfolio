@@ -17,7 +17,7 @@ export default function Projects() {
                         Mes projets
                     </h1>
                     <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-                        Voici quelques projets réalisés au cours de formation à Ada Tech School.
+                        Voici quelques projets réalisés au cours de formation à <a href="https://adatechschool.fr/" target="_blank" className=>Ada Tech School</a>.
                     </p>
                 </div>
                 <div className="flex flex-nowrap -m-4 rounded ">
