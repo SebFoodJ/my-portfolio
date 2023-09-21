@@ -7,6 +7,7 @@ import Projects from "./components/Projects";
 import Testimonials from "./components/Testimonials";
 import Contact from "./components/Contact";
 import About from "./components/About";
+import Description from './components/Description';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     <main className="text-gray-400 bg-repeat body-font bg-background-image">
       <Navbar />
       <About />
+      <Description />
       <Projects />
       <Skills />
       <Testimonials />

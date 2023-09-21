@@ -3,6 +3,9 @@ module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    fontWeight: {
+      
+    },
     extend: {
       backgroundImage:{
         'background-image': "url('./images/background.jpg')",
@@ -24,7 +27,8 @@ module.exports = {
         'mono': ['ui-monospace', 'SFMono-Regular'],
         'display': ['Oswald'],
         'body': ['Open Sans'],
-      }},
+      },
+    },
   },
   plugins: [],
 }
