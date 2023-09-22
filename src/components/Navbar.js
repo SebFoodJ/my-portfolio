@@ -12,6 +12,9 @@ export default function Navbar() {
                     </h1>
                 </p>
                 <nav className="md:ml-auto flex font-medium flex-wrap items-center text-lavender justify-center">
+                    <a href="#description" className="mr-5 hover:text-frenchgray">
+                        A propos
+                    </a>
                     <a href="#projects" className="mr-5 hover:text-frenchgray">
                         Mes projets
                     </a>

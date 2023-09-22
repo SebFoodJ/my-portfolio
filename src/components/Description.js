@@ -1,30 +1,52 @@
 import React from "react";
 
 export default function Description() {
-    return(
-        <section id="description" className="text-gray-400 body-font">
-            <div className="container px-5 py-10 mx-auto text-center lg:px-40">
-                <div className="flex flex-col w-full mb-5">
-                    <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
-                        A propos de moi
+    return (
+        <section id="description" className="px-30 my-50">
+            <div className="flex flex-wrap items-center px-10">
+                <div className="w-full md:w-1/3 px-20">
+                    <img
+                        className="w-full"
+                        alt="a propos"
+                        src="./apropos.svg"
+                    />
+                </div>
+                <div className="md:w-2/3 px-10 place-self-center">
+                    <h1 className="text-3xl text-white font-bold mb-4">
+                        A propos de moi...
                     </h1>
-                    <div className="italic">
-                    <p className="lg:w-2/3 mx-auto leading-relaxed text-base mb-3">
-                        "Étudiant à <a href="https://adatechschool.fr/" target="_blank" className="text-lavender font-bold hidden lg:inline-block title-font">Ada Tech School</a>, une école à la pédagogie alternative qui valorise la pratique et les projets collectifs, 
-                        j'ai eu l'opportunité de travailler sur 6 projets collectifs en l'espace de 8 mois. Ces projets, rythmés par des rituels issus de la méthodologie Agile, m'ont permis de développer des compétences essentielles pour le monde professionnel. 
+                    <p className="mb-4">
+                        "Étudiant à{" "}
+                        <a
+                            href="https://adatechschool.fr/"
+                            target="_blank"
+                            className="text-indigo font-bold"
+                        >
+                            Ada Tech School
+                        </a>
+                        , une école à la pédagogie alternative qui valorise la pratique
+                        et les projets collectifs, j'ai eu l'opportunité de travailler sur{" "}
+                        <b className="text-white">6 projets collectifs en l'espace de 8 mois</b>. Ces projets,
+                        rythmés par des rituels issus de la{" "}
+                        <b className="text-white">méthodologie Agile</b>, m'ont permis de développer des
+                        compétences essentielles pour le monde professionnel.
                     </p>
-                    <p className="lg:w-2/3 mx-auto leading-relaxed text-base mb-3"> 
-                        Au fil de mes expériences professionnelles, j'ai exploré différentes voies, notamment en Événementiel au sein d'une agence de communication, puis en tant que Chef de Cuisine dans des restaurants gastronomiques et bistronomiques .
+                    <p className="mb-4">
+                        Au fil de mes expériences professionnelles, j'ai exploré
+                        différentes voies, notamment en{" "}
+                        <b className="text-white">Événementiel</b> au sein d'une agence de
+                        communication, puis en tant que <b className="text-white">Chef de Cuisine</b> dans des
+                        restaurants gastronomiques et bistronomiques.
                     </p>
-                    <p className="lg:w-2/3 mx-auto leading-relaxed text-base"> 
-                        Mes réorientations sont le résultat de mon désir constant d'acquérir de nouvelles compétences et de m'adapter à de nouveaux environnements.  
-                        Ma curiosité est mon moteur, et elle m'incite à rechercher en permanence de nouvelles connaissances."
+                    <p className="mb-4">
+                        Mes réorientations sont le résultat de mon{" "}
+                        <b className="text-white">désir constant d'acquérir de nouvelles compétences</b> et de
+                        m'adapter à de nouveaux environnements. Ma{" "}
+                        <b className="text-white">curiosité</b> est mon moteur, et elle m'incite à
+                        rechercher en permanence de nouvelles connaissances."
                     </p>
-                    </div>
                 </div>
             </div>
         </section>
-
-
-    )
+    );
 }
