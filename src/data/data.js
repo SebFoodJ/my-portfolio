@@ -10,7 +10,7 @@ export const projects = [
         title: "Web4All",
         subtitle: "Extension de navigateur Chrome",
         description: "Extension axé sur l'accessibilité pour les mal-voyant et daltoniens. Options d'écriture inclusive et suppression des gros mots.",
-        image: "./Web4all.gif",
+        image: "./Web4All.gif",
         link: "#"
     },
     {

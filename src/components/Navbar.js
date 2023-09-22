@@ -29,7 +29,7 @@ export default function Navbar() {
                     </a>
                 </nav>
                 <a
-                    href="../myResume.pdf"
+                    href="./myResume.pdf"
                     target="_blank"
                     className="inline-flex items-center bg-taupegray border-0 py-1 px-3 focus:outline-none hover:bg-indigo rounded text-lavender mt-4 md:mt-0">
                     Télécharger mon CV
